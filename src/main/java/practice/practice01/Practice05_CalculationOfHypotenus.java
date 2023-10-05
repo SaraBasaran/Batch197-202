@@ -1,4 +1,4 @@
-package practice;
+package practice.practice01;
 
 public class Practice05_CalculationOfHypotenus {
 
