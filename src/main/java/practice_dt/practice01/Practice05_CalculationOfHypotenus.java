@@ -1,4 +1,4 @@
-package practice_dt;
+package practice_dt.practice01;
 
 public class Practice05_CalculationOfHypotenus {
     public static void main(String[] args) {
