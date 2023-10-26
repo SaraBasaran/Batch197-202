@@ -12,13 +12,17 @@ public class Q01_ForLoop {
 
         //Type code to print the integers divisible by 4 and by 6 from 13 to 211.
         //1.way:wih for loop
+
+        int sum=0;
         for ( int i= 13; i<212; i++){
 
             if (i%4==0 && i%6==0){
                 System.out.print(i + " "); //24 36 48 60 72 84 96 108 120 132 144 156 168 180 192 204
             }
+            sum= sum+ i;
 
         }
+        System.out.println("sum is " + sum);
 
         //2.way
         //starting value is typed before while keyword
